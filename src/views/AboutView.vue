@@ -1,6 +1,7 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
+    <div class="container">
     <div v-for="(tesla, index) in teslas" :key="index">
       <div class="card" style="width: 18rem;">
         <img :src="tesla.urlToImage" class="card-img-top" alt="...">
@@ -13,6 +14,7 @@
       </div>
 
     </div>
+  </div>
   </div>
 </template>
 
@@ -30,3 +32,17 @@ export default {
   }
 }
 </script>
+
+<style>
+  .card{
+    background-color: lightblue;
+    margin-top: 2rem;
+  }
+  img{
+    width: 18rem;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+</style>
