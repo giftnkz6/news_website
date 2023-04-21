@@ -6,7 +6,7 @@
   </div>
   <!-- <div class="deco"></div> -->
 
-  <button>VIEW ARTICLES</button>
+  <button class="btn btn-info">VIEW ARTICLES</button>
 </template>
 
 <script>
@@ -35,14 +35,14 @@ export default {
   }
   img{
     width: 20rem;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
   }
   button{
-    background-color: blue;
+    /* background-color: blue; */
     color: white;
     width: 10rem;
     height: 4rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
 
   .deco{

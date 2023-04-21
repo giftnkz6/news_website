@@ -23,12 +23,12 @@ export default {
   name: "About",
   computed: {
     teslas: function () {
-      return this.$store.state.teslas;
+      return this.$store.state.articles;
     }
 
   },
   mounted() {
-    this.$store.dispatch("getTeslaArticle")
+    this.$store.dispatch("getArticles")
   }
 }
 </script>
@@ -44,5 +44,6 @@ export default {
   .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
   }
 </style>
