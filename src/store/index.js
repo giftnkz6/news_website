@@ -9,9 +9,7 @@ export default createStore({
   state: {
     apples: null,
     teslas: null,
-    bussiness: null,
-    techCrunch: null,
-    wallStreet: null
+    bussiness: null
   },
   getters: {
   },
