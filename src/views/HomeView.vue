@@ -1,8 +1,8 @@
 <template>
   <div>
     <HomeVue/>
-    <AboutVue/>
-    <ArticlesVue/>
+    <!-- <AboutVue/> -->
+    <!-- <ArticlesVue/> -->
   </div>
 </template>
 
